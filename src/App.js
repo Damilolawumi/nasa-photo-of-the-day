@@ -8,15 +8,15 @@ function App() {
 
   const [nasaInfo, setNasaInfo] = useState({})
 
-  //   useEffect(() => {
-  //     axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
-  //     .then(response => {
-  //       console.log(response)
+    useEffect(() => {
+      axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+      .then(response => {
+        console.log(response)
 
-  //       setNasaInfo(response.data)
-  //     })
+        setNasaInfo(response.data)
+      })
 
-  // }, [])
+  }, [])
 
 
 
