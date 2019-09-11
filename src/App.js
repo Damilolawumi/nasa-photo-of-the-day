@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <h1>
-        WELCOME TO THE NASA WORLD
+        PHOTO OF THE DAY
     </h1>
 
       <Name title={nasaInfo.title} explanation={nasaInfo.explanation} />
