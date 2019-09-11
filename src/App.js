@@ -30,7 +30,9 @@ function App() {
 
       {/* <Name title={nasaInfo.title} explanation={nasaInfo.explanation} />
       <Photo imgUrl={nasaInfo.url} /> */}
-
+<div>
+  
+</div>
       <Name
         title={"IC 1805: The Heart Nebula"}
         explanation={`What energizes the Heart Nebula? First, the large emission nebula dubbed IC 1805 looks, 

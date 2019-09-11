@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+.title{
+  font-family: cursive;
+   color: #ca1b0e;
+}

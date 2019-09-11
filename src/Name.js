@@ -4,10 +4,10 @@ function Name (props) {
 
     return (
         <div>
-            <h1>
+            <h1 className="title" >
                 {props.title}
             </h1>
-            <p>
+            <p className= "explanation">
                 {props.explanation}
             </p>
         </div>

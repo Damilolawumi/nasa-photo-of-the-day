@@ -3,7 +3,7 @@ import React from 'react';
 function Photo (props) {
 
 return (
-    <div>
+    <div className="image">
         <img src={props.imgUrl} />
     </div>
 )
