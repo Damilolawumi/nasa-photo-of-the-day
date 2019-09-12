@@ -27,7 +27,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.title {
+  font-family: cursive;
+  color: #ca1b0e;
+}
+
+.explanation {
+  margin: 20px;
+  font-family: georgia;
+  text-align: justify;
+}
+
+.image img {
+  width: 500px;
+  margin: 20px;
 }
