@@ -1,13 +1,12 @@
 import React from 'react';
-import Styles from 'Styles';
 
 function Name (props) {
 
     return (
         <div>
-            <MyStylesH1 className="title" >
+            <h1 className="title" >
                 {props.title}
-            </MyStylesH1>
+            </h1>
             <p className= "explanation">
                 {props.explanation}
             </p>

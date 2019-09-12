@@ -3,6 +3,7 @@ import Photo from './Photo'
 import Name from './Name'
 import "./App.css";
 import axios from "axios"
+import styled from 'styled-components'
 
 function App() {
 
